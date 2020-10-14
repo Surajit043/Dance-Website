@@ -12,7 +12,17 @@
   "author": "Surajit",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "express": "^4.17.1",
     "pug": "^3.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surajit043/Dance-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Surajit043/Dance-Website/issues"
+  },
+  "homepage": "https://github.com/Surajit043/Dance-Website#readme"
 }

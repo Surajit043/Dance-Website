@@ -23,7 +23,10 @@ app.get("/contact" , (req,res)=>{
     res.status(200).render ("contact.pug" , params)
 })
 
-
+//step 3
+// if ( process.env.NODE_ENV === "production"){
+//     app.use(express.static("node_modules/build"));
+// }
 
 
 // START OUR SERVER
