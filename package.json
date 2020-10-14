@@ -4,7 +4,12 @@
   "description": "This is A Dance Website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "build": "cd views &&npm run build",
+    "install": "cd views && npm install",
+    "herok-postbuild": "npm run install && npm run build ",
+    "start": "node app.js",
+    "client" : "cd views && npm start"
   },
   "keywords": [
     "good"
